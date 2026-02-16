@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tamim All Hasan | Developer Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -21,7 +22,7 @@
         </nav>
     </header>
 
-    <main class="hero-section">
+    <section id="about" class="hero-section">
         <div class="container">
             <div class="hero-content">
                 <p class="subtitle">HELLO, I'M</p>
@@ -40,16 +41,74 @@
                     <a href="#"><i class="fab fa-github"></i></a>
                     <a href="#"><i class="fab fa-linkedin"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
 
             <div class="hero-image">
                 <div class="circle-frame">
-                    <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&q=80&w=500" alt="Celestial Profile">
+                    <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&q=80&w=600" alt="Celestial Profile">
                 </div>
             </div>
         </div>
-    </main>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container-column">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>Frontend</h3>
+                    <p>HTML5, CSS3, JavaScript, React.js</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Backend</h3>
+                    <p>Node.js, Express, MongoDB, Firebase</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Tools</h3>
+                    <p>Git, GitHub, Docker, Figma, VS Code</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container-column">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=600" alt="Project One">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Dashboard</h3>
+                        <p>A sophisticated admin panel with real-time data visualization and inventory tracking.</p>
+                        <div class="tags"><span>React</span> <span>Chart.js</span></div>
+                        <a href="#" class="view-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&q=80&w=600" alt="Project Two">
+                    </div>
+                    <div class="project-info">
+                        <h3>AI SaaS Landing Page</h3>
+                        <p>Modern dark-themed landing page with smooth animations and minimalist UI.</p>
+                        <div class="tags"><span>Next.js</span> <span>Tailwind</span></div>
+                        <a href="#" class="view-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Quik Portfolio. Built by Tamim All Hasan.</p>
+    </footer>
 
 </body>
 </html>
