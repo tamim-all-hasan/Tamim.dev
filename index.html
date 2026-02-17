@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tamim All Hasan | Developer Portfolio</title>
+    <title>Tamim All Hasan | UI/UX Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
@@ -12,105 +12,77 @@
 
     <header>
         <nav class="navbar">
-           <div class="logo">TAH<span>&#9786;</span></div>
+            <div class="logo">TAH<span>&#9786;</span></div>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#about">About US</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
             </ul>
+            <a href="mailto:mdtamimallhasantuhin@gmail.com" class="nav-cta">Let's Talk</a>
         </nav>
     </header>
 
-    <section id="about" class="hero-section">
-        <div class="container">
-            <div class="hero-content">
-                <p class="subtitle">HELLO, I'M</p>
-                <h1 class="name">Tamim All Hasan</h1>
-                <p class="description">
-                    A passionate developer focused on building clean, functional, and user-centric digital experiences. 
-                    Specializing in modern web technologies with a keen eye for minimalist design and precision.
-                </p>
-                
-                <div class="cta-buttons">
-                    <a href="#projects" class="btn btn-primary">View Projects</a>
-                    <a href="mailto:mdtamimallhasantuhin@gmail.com" class="btn btn-secondary">Contact Me</a>
-                </div>
-
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/md-tamim-all-hasan-tuhin-799794311?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://x.com/F1047D"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.instagram.com/_f1047d_?igsh=d2luYWZoYmJkeWNk&utm_source=ig_contact_invite"><i class="fab fa-instagram"></i></a>
-                     <a href="https://www.facebook.com/share/1DmxAfkaiN/"><i class="fab fa-facebook"></i></a>
-                </div>
+    <section id="home" class="hero-split">
+        <div class="hero-text">
+            <h1 class="headline">Modern UI/UX <br>Solutions for <span class="highlight">Brands.</span></h1>
+            <h2 class="designer-name">TAMIM ALL HASAN</h2>
+            <p class="description">Crafting clean, professional, and user-centric digital experiences with a focus on functionality and minimalist design.</p>
+            <div class="cta-area">
+                <a href="#projects" class="btn btn-primary">View Portfolio</a>
             </div>
-
-            <div class="hero-image">
-                <div class="circle-frame">
-                    <img src="assets/black.jpg" alt="Celestial Profile">
-                </div>
+        </div>
+        <div class="hero-visual">
+            <div class="portrait-wrapper">
+                <img src="your-photo-1.jpg" alt="Tamim All Hasan">
+                <div class="shadow-box"></div>
             </div>
         </div>
     </section>
 
-    <section id="skills" class="skills-section">
-        <div class="container-column">
-            <h2 class="section-title">Technical Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <i class="fab fa-html5"></i>
-                    <h3>Frontend</h3>
-                    <p>HTML5, CSS3, JavaScript, React.js</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-code"></i>
-                    <h3>Backend</h3>
-                    <p>Node.js, Express, MongoDB, Firebase</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-tools"></i>
-                    <h3>Tools</h3>
-                    <p>Git, GitHub, Docker, Figma, VS Code</p>
-                </div>
+    <section id="certificates" class="cert-section">
+        <h2 class="section-title">Certifications</h2>
+        <div class="cert-grid">
+            <div class="cert-card">
+                <i class="fas fa-medal"></i>
+                <h3>Google UX Design</h3>
+                <p>Professional Certificate in UX Design Foundations and Research.</p>
+            </div>
+            <div class="cert-card">
+                <i class="fas fa-code"></i>
+                <h3>Frontend Specialization</h3>
+                <p>Expertise in building responsive and accessible web interfaces.</p>
+            </div>
+            <div class="cert-card">
+                <i class="fas fa-pen-nib"></i>
+                <h3>Visual Design</h3>
+                <p>Advanced typography, color theory, and composition skills.</p>
             </div>
         </div>
     </section>
 
-    <section id="projects" class="projects-section">
-        <div class="container-column">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-img">
-                        <img src="assets/hang.jpg" alt="Project One">
-                    </div>
-                    <div class="project-info">
-                        <h3>Hangman Game</h3>
-                        <p>Hangman is a classic word-guessing game where players try to uncover a hidden word by guessing letters.
-.</p>
-                        <div class="tags"><span>React</span> <span>Chart.js</span></div>
-                        <a href="https://tamim-all-hasan.github.io/Hangman/" class="View link">View Project <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-img">
-                        <img src="assets/pass.jpg" alt="Project Two">
-                    </div>
-                    <div class="project-info">
-                        <h3>Smart Password Generator</h3>
-                        <p>A tool that creates strong, random passwords to enhance security.</p>
-                        <div class="tags"><span>Next.js</span> <span>Tailwind</span></div>
-                        <a href="https://tamim-all-hasan.github.io/Password-Generator/" class="view-link">View Project <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
+    <section id="about" class="about-split">
+        <div class="about-visual">
+            <div class="portrait-wrapper-round">
+                <img src="black.jpg" alt="About Tamim">
             </div>
+        </div>
+        <div class="about-text">
+            <h2 class="section-title-left">About US</h2>
+            <p>I am a passionate UI/UX designer dedicated to creating interfaces that are not only visually stunning but also highly functional. My approach prioritizes clarity, readability, and a positive user experience.</p>
+            <p>By blending deep teal hues with vibrant orange accents, I create sophisticated designs that leave a lasting impression on users and clients alike.</p>
         </div>
     </section>
 
     <footer>
-        <p>Let's talk: <strong>mdtamimallhasantuhin@gmail.com</strong></p>
-        <p>&copy; 2026 Quik Portfolio. Built by Tamim All Hasan.</p>
+        <p>&copy; 2026 TAH Design Portfolio. All rights reserved.</p>
+        <div class="social-mini">
+           <a href="#"><i class="fab fa-github"></i></a>
+<a href="[https://www.linkedin.com/in/md-tamim-all-hasan-tuhin-799794311?utm_source=share_via&utm_content=profile&utm_medium=member_android](https://www.linkedin.com/in/md-tamim-all-hasan-tuhin-799794311?utm_source=share_via&utm_content=profile&utm_medium=member_android)"><i class="fab fa-linkedin"></i></a>
+<a href="[https://x.com/F1047D](https://x.com/F1047D)"><i class="fab fa-twitter"></i></a>
+<a href="[https://www.instagram.com/_f1047d_?igsh=d2luYWZoYmJkeWNk&utm_source=ig_contact_invite](https://www.instagram.com/_f1047d_?igsh=d2luYWZoYmJkeWNk&utm_source=ig_contact_invite)"><i class="fab fa-instagram"></i></a>
+<a href="[https://www.facebook.com/share/1DmxAfkaiN/](https://www.facebook.com/share/1DmxAfkaiN/)"><i class="fab fa-facebook"></i></a>
+        </div>
     </footer>
 
 </body>
